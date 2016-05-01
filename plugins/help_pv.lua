@@ -73,19 +73,13 @@ function run(msg, matches)
 💭 [!/]join 123456789
 ▶با این دستور ربات شمارو به گروه مورد نظر دعوت میکند
 
-➖➖➖➖➖➖➖
-V 4.5 @TeleBeyond
-Team Channel : @BeyondTeam
-Sudo Users :  ðŸ‘¤
-@SoLiD021
-@MrHalix]]
 end
 end
 return {
   description = "Robot About", 
   usage = "help: View Robot About",
   patterns = {
-    "^[#!/]help$"
+    "^[#!/]helppv"
     }, 
   run = run 
 }
