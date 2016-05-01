@@ -87,7 +87,7 @@ return {
   usage = "help: View Robot About",
   patterns = {
     "^راهنما$",
-    "^!helpfu"
+    "^!helpfa"
     }, 
   run = run 
 }
